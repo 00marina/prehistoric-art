@@ -5,7 +5,27 @@
 
 body {
     background: linear-gradient(to bottom, #2B0820, #540D0B);
-    height: 100vh;
+    background-repeat: no-repeat;
+    color: aliceblue;
+}
+
+h1, h2, h3 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 400;
+}
+h1 {
+    margin-top: 5%;
+}
+h2 {
+    margin-top: 3%;
+}
+h3 {
+    margin-top: 2%;
+}
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    margin-top: 0.5em;
 }
 
 .nav {
@@ -45,3 +65,180 @@ body {
 .carousel-item img {
     max-width: 100%;
 }
+
+/*intro section*/
+.intro-section {
+    padding: 0 10em;
+}
+
+.definition h1 {
+    text-align: center;
+}
+.definition p {
+    text-align: justify;
+}
+
+.paleo {
+    display: flex;
+    flex-direction: row;
+    gap: 1em;
+    margin: 2em 0;
+    justify-content: center;
+    align-items: center;
+}
+.paleo img {
+    max-width: 50%;
+}
+.meso {
+    display: flex;
+    flex-direction: row;
+    gap: 1em;
+    margin: 2em 0;
+    justify-content: center;
+    align-items: center;
+}
+.meso img {
+    max-width: 50%;
+}
+.neolith {
+    display: flex;
+    flex-direction: row;
+    gap: 1em;
+    margin: 2em 0;
+    justify-content: center;
+    align-items: center;
+}
+.neolith img {
+    max-width: 50%;
+}
+.types-text {
+    text-align: justify;
+}
+
+/*Chronology*/
+.chronology-title {
+    text-align: center;
+}
+.chronology {
+    position: relative;
+    margin: 20px 0;
+    padding: 0;
+    list-style-type: none;
+    height: 28em;
+    overflow-x: scroll;
+
+}
+
+.main-line::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 0;
+    right: 0;
+    height: 3px;
+    background: aliceblue;
+    z-index: -1;
+    width: 100em;
+}
+.item1 p,
+.item2 p,
+.item3 p,
+.item4 p,
+.item5 p,
+.item6 p,
+.item7 p,
+.item8 p {
+    content: '';
+    position: absolute;
+    width: 7em;
+    height: 2px;
+    background: aliceblue;
+    z-index: -1;
+}
+.item1 p {
+    bottom: 10.3em;
+    left: 10em;
+    rotate: 120deg;
+}
+
+.item2 p {
+    top: 9.9em;
+    left: 20em;
+    rotate: 60deg;
+}
+
+.item3 p {
+    bottom: 10.3em;
+    left: 30em;
+    rotate: 120deg;
+}
+.item4 p {
+    top: 9.9em;
+    left: 40em;
+    rotate: 60deg;
+}
+
+
+.item5 p {
+    bottom: 10.3em;
+    left: 50em;
+    rotate: 120deg;
+}
+.item6 p {
+    top: 9.9em;
+    left: 60em;
+    rotate: 60deg;
+}
+.item7 p {
+    bottom: 10.3em;
+    left: 70em;
+    rotate: 120deg;
+}
+.item8 p {
+    top: 9.9em;
+    left: 80em;
+    rotate: 60deg;
+}
+
+.title1 {
+    position: absolute;
+    bottom: 5em;
+    left: 10em;
+}
+.title2 {
+    position: absolute;
+    top: 5em;
+    left: 20em;
+}
+.title3 {
+    position: absolute;
+    top: 5em;
+    left: 30em;
+}
+.title4 {
+    position: absolute;
+    bottom: 5em;
+    left: 40em;
+}
+.title5 {
+    position: absolute;
+    top: 5em;
+    left: 50em;
+}
+.title6 {
+    position: absolute;
+    bottom: 5em;
+    left: 60em;
+}
+.title7 {
+    position: absolute;
+    top: 5em;
+    left: 70em;
+}
+.title8 {
+    position: absolute;
+    bottom: 5em;
+    left: 80em;
+}
+
+
